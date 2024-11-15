@@ -56,13 +56,15 @@ If all goes well, the helper process attaches to the main process, and they live
 
 Here we see how our process looks without the mighty debug privileges. Quite unassuming, isn't it?
 
-![[Screenshot 2024-11-15 153215.png]]
+![Screenshot 2024-11-15 153215](https://github.com/user-attachments/assets/38e7817e-a7e3-4954-9353-fc142ad9e389)
+
 
 **Process execution with those nice privileges**:
 
 Now we've activated the debug privileges. Feels a lot more powerful already!
 
-![[Screenshot 2024-11-15 153615.png]]
+![Screenshot 2024-11-15 153615](https://github.com/user-attachments/assets/d7723d9f-ab9d-405e-a93f-7c4a570df70c)
+
 
 
 
@@ -70,8 +72,7 @@ Now we've activated the debug privileges. Feels a lot more powerful already!
 
 And behold! When an external debugger is active, our little trick fails, and we're in the know. It's almost like cheating—but in a good way!
 
-![[Screenshot 2024-11-15 154244.png]]
-
+![Screenshot 2024-11-15 154244](https://github.com/user-attachments/assets/78030c81-3f57-4b34-bf71-b8daebd4c5a5)
 
 ---
 
@@ -86,11 +87,17 @@ So, the next time you want to outsmart a debugger, remember: sometimes you just 
 ## References:
 
 [1] https://learn.microsoft.com/en-us/windows/win32/api/debugapi/nf-debugapi-debugactiveprocess
+
 [2] https://learn.microsoft.com/en-us/windows/win32/secauthz/privilege-constants
+
 [3] https://github.com/LordNoteworthy/al-khaser/tree/master
+
 [4] https://0xpat.github.io/
+
 [5] https://www.codeproject.com/Articles/30815/An-Anti-Reverse-Engineering-Guide
+
 [6] https://maldevacademy.com/
+
 
 To be honest, there is so much content and similar techniques that are always similar. These are the references you should definitely check out because there is so much to learn.
 
